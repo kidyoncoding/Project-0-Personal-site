@@ -1,0 +1,173 @@
+body {
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Schibsted Grotesk', sans-serif;
+    text-align:center;
+
+}
+
+.flex-container {
+    display: flex;
+}
+
+@media (max-width:564px) {
+    .flex-container {
+        flex-direction:column;
+    }
+
+
+}
+
+.container{
+    flex:1;
+    border-style:dotted;
+    border-width: 5px;
+    border-color: #19376D;
+}
+
+.first {
+    flex:0.85;
+
+}
+.third {
+    flex:0.85;
+
+
+} 
+h1{
+    color:orange;
+    text-decoration:overline ;
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+    color:white;
+    font-family:Carlito,sans-serif;
+    font-size:40px;
+    border-color: white;
+    border-style:solid;
+}
+
+h3{
+    color:white;
+    margin: 10px;
+}
+
+.button{
+    text-align: start;
+    margin: 10px;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display:flex;
+    align-items: center;
+
+}
+
+.button-img{
+    height:50px;
+    padding:5px;
+}
+
+.button-name {
+    font-size: 25px;
+    padding:15px;
+    font-weight:bold;
+    color:#19376D;
+}
+
+.profile-pic{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+
+
+}
+
+.block {
+    height:110px;
+    width:110px;
+    background-color: #FFD93D;
+    border-radius: 20%;
+    margin: 12px;
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+
+.project-link-pic{
+    height:110px;
+    object-fit:fill;
+    border-radius: 20%;
+    margin: 12px;
+    display:inline-flex;
+    justify-content: space-evenly;
+
+}
+.pizza{
+    position: relative;
+    
+
+    
+}
+.pizza-word{
+    position: absolute;
+    top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.aboutme-introduction{
+    color:white;
+    font-size:18px;
+    padding: 10px;
+    text-align:justify;
+}
+
+.lien-he-ngay{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.strong-words{
+    color: orange;
+}
+
+footer{
+    font-family: 'Carlito', sans-serif;
+    color: #19376D;
+    height: 50px;
+    display: block;
+    padding-top: 15px;
+}
+
+.language-pic {
+    height:20px;
+
+}
+
+.language-pic.hover {
+    opacity: 70%;
+}
+
+.language {
+    font-size: 18px;
+    color: #FFD93D;
+    padding:2px;
+}
+
+.theme {
+    font-size: 18px;
+    color: #FFD93D;
+    background-color:#654E92;
+    padding:2px;
+}
+
+.Kidy{
+    color:#FFD93D;
+}
+
+    
+
+
